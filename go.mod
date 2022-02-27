@@ -1,4 +1,4 @@
-module github.com/suggestionsbot/go-microservice-template
+module github.com/suggestionsbot/guild-expirations
 
 go 1.17
 

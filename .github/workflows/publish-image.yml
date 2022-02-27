@@ -16,7 +16,7 @@ jobs:
           id: meta
           uses: docker/metadata-action@v3
           with:
-            images: ghcr.io/suggestionsbot/microservice
+            images: ghcr.io/suggestionsbot/guild-expirations
             tags: |
               type=schedule
               type=ref,event=branch

@@ -1,2 +1,2 @@
-# go-microservice-template
-A template used for Suggestions-related microservices.
+# guild-data-expiration
+Handle the expiration of a guild's data when the Suggestions bot is removed from the server.

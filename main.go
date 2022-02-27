@@ -16,7 +16,7 @@ func init() {
 }
 
 func main() {
-	fmt.Println("Microservice v1.0 - Copyright (c) 2022 Anthony Collier")
+	fmt.Println("Guild Expirations v1.0 - Copyright (c) 2022 Anthony Collier")
 
 	handleServer()
 }

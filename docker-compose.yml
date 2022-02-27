@@ -3,15 +3,15 @@ version: "3.3"
 services:
   voting:
     container_name: microservice
-    image: ghcr.io/suggestionsbot/go-microservice-template:latest
+    image: ghcr.io/suggestionsbot/guild-expirations:latest
     env_file:
       - .env # check .env.example for details
     restart: always
     ports:
       - "3000:3000"
     networks:
-      - microservice
+      - guilds
 
 networks:
-  microservice:
+  guilds:
     internal: true
